@@ -1,0 +1,17 @@
+{
+    "name": "platina_lab",
+    "version": "0.0.1",
+    "description": "PLATiNA :: LAB's unofficial API",
+    "main": "src/index.js",
+    "scripts": {
+        ".": "ts-node src/index"
+    },
+    "author": "chocolily",
+    "license": "MIT",
+    "dependencies": {
+        "@types/node": "^22.14.0",
+        "ts-node": "^10.9.2",
+        "tslib": "^2.8.1",
+        "typescript": "^5.8.3"
+    }
+}
