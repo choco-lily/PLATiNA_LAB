@@ -1,9 +1,9 @@
-import { BASE_URL, header } from "../config";
+import { API_URL, header } from "../config";
 
 export class Ranking {
     async getRank(id: number, sort = "score", page = 1) {
         const path = encodeURI(`ranking/best?id=${id}&sort=${sort}&page=${page}`)
-        const res = await fetch(`${BASE_URL}/${path}`, {
+        const res = await fetch(`${API_URL}/${path}`, {
             method: "GET",
             headers: header
         });
